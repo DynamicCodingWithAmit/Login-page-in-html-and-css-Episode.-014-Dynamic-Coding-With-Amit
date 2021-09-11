@@ -1,0 +1,97 @@
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    height: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+img{
+    width: 320px;
+    height: 200px;
+    border-radius: 20px;
+}
+.container{
+    width: 320px;
+    height: 550px;
+    border-radius: 20px;
+    background-color: #fff;
+    box-shadow: 
+    -10px -10px 15px rgba(0,0,0,0.3),
+    10px 10px 15px rgba(0,0,0,0.3);
+}
+form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding:25px;
+    position: relative;
+    top:-110px;
+}
+form img{
+    width:70px;
+    height: 70px;
+    border-radius: 70px;
+    border:3px dotted #e08d34;
+    align-self: center;
+}
+label{
+    margin-top:10px;
+}
+input{
+    height: 30px;
+    border-radius: 5px;
+    border:none;
+    background-color: #ccf;
+    outline:none;
+    font-size: 18px;
+}
+input[type="submit"]{
+    margin-top: 30px;
+    background-color:#e08d34;
+    font-size: 16px;
+    color:#fff;
+}
+p{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 10px;
+}
+.bottom{
+    position: relative;
+    top:-120px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+}
+.or{
+    font-size: 20px;
+    color:#ccf
+}
+.facebook{
+    width: 250px;
+    height: 28px;
+    border-radius: 5px;
+    background-color:rgb(66,103,178);
+    display: flex;
+    align-items:center;
+    color:#fff;
+    letter-spacing: 0.5px;
+    margin:20px 0px;
+}
+.fa-facebook-square{
+    font-size: 30px;
+    color:rgb(19,20,41);
+    padding-right: 5px;
+}
+.Register{
+    color:#e08d34;
+}
+.Register:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
